@@ -1,0 +1,18 @@
+const path = require('node:path');
+
+// bara separadora segun el sistema operativo
+console.log(path.sep)
+
+
+// unir rutas con path.join
+const filePath = path.join('content', 'subfolder', 'test.txt')
+console.log(filePath)
+
+const base = path.basename('/tmp/midu-secret-files/password.txt') // "basename" - da el nombre del fichero
+console.log(base)
+
+const filename = path.basename('/tmp/midu-secret-files/password.txt', '.txt') // "basename" - da el nombre del fichero sin la extension
+console.log(filename)
+
+const extension = path.extname('image.jpg') // "extname" - da la extension del fichero
+console.log(extension)

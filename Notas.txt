@@ -1,0 +1,47 @@
+
+https://www.linkedin.com/posts/midudev_este-es-mi-curso-de-nodejs-desde-cero-activity-7350145614539599873-YRO2?utm_medium=ios_app&rcm=ACoAAFLYvQIBJ-KZ2S1ydvHRJPzIy8usZPKSAi8&utm_source=social_share_send&utm_campaign=Gmail
+
+
+
+------------------------Recuperar información de cada uno de los ficheros------------------------------
+
+jcmcg@Jcmc63cmcJ MINGW64 ~/OneDrive/Escritorio/Curso_Node_js
+$ node 8.ls-advanced.js
+{
+  file: '1.os-info.js',
+  stats: Stats {
+    dev: 921192507,
+    mode: 33206,
+    nlink: 1,
+    uid: 0,
+    gid: 0,
+    rdev: 0,
+    blksize: 4096,
+    ino: 6473924464959870,
+    size: 612,
+    blocks: 8,
+    atimeMs: 1753550306711.6958,
+    mtimeMs: 1753548922214.2217,
+    ctimeMs: 1753549136490.6086,
+    birthtimeMs: 1753548132448.6045
+  }
+}
+{
+  file: '1.os-info.mjs',
+  stats: Stats {
+    dev: 921192507,
+    mode: 33206,
+    nlink: 1,
+    uid: 0,
+    gid: 0,
+    rdev: 0,
+    blksize: 4096,
+    ino: 15481123719731000,
+    size: 673,
+    blocks: 8,
+    atimeMs: 1753550577531.5898,
+    mtimeMs: 1753550577531.5898,
+    ctimeMs: 1753550578650.8027,
+    birthtimeMs: 1753550315468.462
+  }
+}
