@@ -15,6 +15,12 @@
   "author": "Joao Cabral de Matos Carvalho - jcmc",
   "license": "MIT",
   "dependencies": {
-    "picocolors": "^1.1.1"
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }
