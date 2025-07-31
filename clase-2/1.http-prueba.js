@@ -12,6 +12,7 @@ const processRequest = (req, res) => {
         '<ul style="list-style-type: none; padding: 0;">' +
           '<li><a href="/">Inicio</a></li>' +
           '<li><a href="/contacto">Contacto</a></li>' +
+          '<li><a href="/blog">Blog</a></li>' +
         '</ul>' +
       '</div>' +
       '<h1 style="text-align: center;">Bienvenido a mi página de inicio</h1>')
@@ -22,9 +23,21 @@ const processRequest = (req, res) => {
         '<ul style="list-style-type: none; padding: 0;">' +
           '<li><a href="/">Inicio</a></li>' +
           '<li><a href="/contacto">Contacto</a></li>' +
+          '<li><a href="/blog">Blog</a></li>' +
         '</ul>' +
       '</div>' +
       '<h1 style="text-align: center;">Bienvenido a mi página de Contacto</h1>')
+  } else if (req.url === '/blog') {
+    res.statusCode = 200 // OK
+    res.end(
+      '<div style="text-align: center; margin-top: 50px;">' +
+        '<ul style="list-style-type: none; padding: 0;">' +
+          '<li><a href="/">Inicio</a></li>' +
+          '<li><a href="/contacto">Contacto</a></li>' +
+          '<li><a href="/blog">Blog</a></li>' +
+        '</ul>' +
+      '</div>' +
+      '<h1 style="text-align: center;">Bienvenido a mi Blog</h1>')
   } else {
     res.statusCode = 404 // Not Found
     res.end('<h1>404 = Página no encontrada</h1>')
